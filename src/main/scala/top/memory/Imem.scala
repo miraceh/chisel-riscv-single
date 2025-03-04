@@ -14,7 +14,7 @@ class IMem extends Module {
   val mem = Mem(256, UInt(32.W))
 
   // 读取 mem.hex 预加载指令
-  loadMemoryFromFile(mem, "resource/test1.hex")
+  loadMemoryFromFile(mem, "resource/test2.hex")
 
   // 读取指令（按字对齐）
   io.inst := mem(io.addr >> 2)

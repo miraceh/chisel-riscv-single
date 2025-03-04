@@ -1,4 +1,4 @@
-package controller
+package top.core.controller
 
 import chisel3._
 import chisel3.util._
